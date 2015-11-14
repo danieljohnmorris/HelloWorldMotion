@@ -14,14 +14,18 @@ class AppDelegate
     unless @window
       # setup root controller
       rootViewController = UIViewController.alloc.init
-      rootViewController.title = 'Hello'
-      rootViewController.view.backgroundColor = UIColor.blackColor
+      # rootViewController.title = 'Hello'
+      # rootViewController.view.backgroundColor = UIColor.blackColor
+
       # setup nav controller
-      navigationController = UINavigationController.alloc.initWithRootViewController(rootViewController)
+      # navigationController = UINavigationController.alloc.initWithRootViewController(rootViewController)
+
       # setup window
       @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
+
       # assign root controller
-      @window.rootViewController = navigationController
+      # @window.rootViewController = navigationController
+      @window.rootViewController = rootViewController
     end
 
     @window
@@ -34,7 +38,7 @@ class AppDelegate
   end
 
   def application(application, didFinishLaunchingWithOptions:launchOptions)
-    # window.addSubview(hello_world_label)
+    window.addSubview(hello_world_label)
     window.makeKeyAndVisible
 
     true
