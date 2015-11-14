@@ -1,0 +1,38 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bubble-wrap (1.9.5)
+    diff-lcs (1.2.5)
+    motion-parse (0.0.1)
+      motion-support (>= 0.2.0)
+    motion-require (0.2.0)
+    motion-support (0.3.0)
+      motion-require (>= 0.0.6)
+    rake (0.9.6)
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.0)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.0)
+    sugarcube (3.3.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bubble-wrap
+  motion-parse
+  rake
+  rspec
+  sugarcube
+
+BUNDLED WITH
+   1.10.6
