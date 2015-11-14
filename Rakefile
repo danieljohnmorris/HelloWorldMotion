@@ -10,9 +10,15 @@ end
 
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
+
   app.name = 'Hello'
   app.interface_orientations = [:portrait]
+
+  app.identifier = 'com.danielmorris.demo'
   app.version = "0.0.1"
+
+  # app.codesign_certificate = 'iPhone Developer: Your Name (XXXXXXXXXX)'
+  # app.provisioning_profile = '/path/to/your/provisioning/profile/Example_App.mobileprovision'
 end
 
 ### DEVICE SHORTCUTS
